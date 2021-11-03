@@ -1,10 +1,15 @@
 const letterI = "I";
+const letterV = "V";
 
 const decimalToRoman = (num) => {
 
 
     if(num <= 3) {
         return letterI.repeat(num);
+    }
+
+    if(num >= 4) {
+        return letterI.repeat(num) + letterV;
     }
 
     // if(num === 4) {
