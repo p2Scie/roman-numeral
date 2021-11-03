@@ -16,6 +16,10 @@ const decimalToRoman = (num) => {
         return "IV";
     }
 
+    if(num === 5) {
+        return "V";
+    }
+
 
 
 }
@@ -25,3 +29,4 @@ console.log(decimalToRoman(1));
 console.log(decimalToRoman(2));
 console.log(decimalToRoman(3));
 console.log(decimalToRoman(4));
+console.log(decimalToRoman(5));
