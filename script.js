@@ -8,8 +8,12 @@ const decimalToRoman = (num) => {
         return letterI.repeat(num);
     }
 
-    if(num >= 4) {
-        return letterI.repeat(num) + letterV;
+    if(num === 4) {
+        return letterI + letterV;
+    }
+
+    if(num > 4) {
+        return letterV + letterI.repeat(num);
     }
 
     // if(num === 4) {
