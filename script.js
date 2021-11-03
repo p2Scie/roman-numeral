@@ -12,9 +12,16 @@ const decimalToRoman = (num) => {
         return "III";
     }
 
+    if(num === 4) {
+        return "IV";
+    }
+
+
 
 }
 
 console.log(decimalToRoman(0));
 console.log(decimalToRoman(1));
 console.log(decimalToRoman(2));
+console.log(decimalToRoman(3));
+console.log(decimalToRoman(4));
