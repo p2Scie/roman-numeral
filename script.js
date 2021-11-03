@@ -27,6 +27,10 @@ const decimalToRoman = (num) => {
         return "VII";
     }
 
+    if(num === 8) {
+        return "VIII";
+    }
+
 
 
 }
@@ -39,3 +43,4 @@ console.log(decimalToRoman(4));
 console.log(decimalToRoman(5));
 console.log(decimalToRoman(6));
 console.log(decimalToRoman(7));
+console.log(decimalToRoman(8));
