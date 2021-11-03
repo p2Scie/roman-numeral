@@ -13,8 +13,12 @@ const decimalToRoman = (num) => {
         if(num === 4) {
             return letterI + letterV;
         }
+
+        if(num === 5) {
+            return letterV;
+        }
        
-            return letterV + letterI.repeat(num);
+        return letterV + letterI.repeat(num);
         
         
     }
