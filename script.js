@@ -29,8 +29,10 @@ const decimalToRoman = (num) => {
        
        
         return letterV + letterI.repeat(num - 5);
-        
-        
+    }
+
+    if(num >= 11) {
+        return letterX + letterI.repeat(num - 10); 
     }
 
 }
@@ -46,3 +48,13 @@ console.log(decimalToRoman(7));
 console.log(decimalToRoman(8));
 console.log(decimalToRoman(9));
 console.log(decimalToRoman(10));
+console.log(decimalToRoman(11));
+console.log(decimalToRoman(12));
+console.log(decimalToRoman(13));
+console.log(decimalToRoman(14));
+console.log(decimalToRoman(15));
+console.log(decimalToRoman(16));
+console.log(decimalToRoman(17));
+console.log(decimalToRoman(18));
+console.log(decimalToRoman(19));
+console.log(decimalToRoman(20));
