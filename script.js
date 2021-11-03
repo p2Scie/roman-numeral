@@ -1,43 +1,39 @@
-let str;
+const letterI = "I";
 
 const decimalToRoman = (num) => {
-    
 
-    if(num === 2) {
-        return "II";
+
+    if(num <= 3) {
+        return letterI.repeat(num);
     }
 
-    if(num === 3) {
-        return "III";
-    }
+    // if(num === 4) {
+    //     return "IV";
+    // }
 
-    if(num === 4) {
-        return "IV";
-    }
+    // if(num === 5) {
+    //     return "V";
+    // }
 
-    if(num === 5) {
-        return "V";
-    }
+    // if(num === 6) {
+    //     return "VI";
+    // }
 
-    if(num === 6) {
-        return "VI";
-    }
+    // if(num === 7) {
+    //     return "VII";
+    // }
 
-    if(num === 7) {
-        return "VII";
-    }
+    // if(num === 8) {
+    //     return "VIII";
+    // }
 
-    if(num === 8) {
-        return "VIII";
-    }
+    // if(num === 9) {
+    //     return "IX";
+    // }
 
-    if(num === 9) {
-        return "IX";
-    }
-
-    if(num === 10) {
-        return "X";
-    }
+    // if(num === 10) {
+    //     return "X";
+    // }
     
 
 
