@@ -19,45 +19,19 @@ const decimalToRoman = (num) => {
             return letterV;
         }
 
-        if(num >= 9) {
+        if(num === 9) {
             return letterI + letterX;
         }
+
+        if(num === 10) {
+            return letterX;
+        }
+       
        
         return letterV + letterI.repeat(num - 5);
         
         
     }
-
-    // if(num === 4) {
-    //     return "IV";
-    // }
-
-    // if(num === 5) {
-    //     return "V";
-    // }
-
-    // if(num === 6) {
-    //     return "VI";
-    // }
-
-    // if(num === 7) {
-    //     return "VII";
-    // }
-
-    // if(num === 8) {
-    //     return "VIII";
-    // }
-
-    // if(num === 9) {
-    //     return "IX";
-    // }
-
-    // if(num === 10) {
-    //     return "X";
-    // }
-    
-
-
 
 }
 
