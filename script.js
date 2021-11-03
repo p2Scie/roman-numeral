@@ -1,9 +1,11 @@
 
 const decimalToRoman = (num) => {
-    if(num === 0) {
-        return true;
+    if(num === 1) {
+        return "I";
     }
+
 
 }
 
-decimalToRoman(0);
+console.log(decimalToRoman(0));
+console.log(decimalToRoman(1));
