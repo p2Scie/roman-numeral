@@ -8,6 +8,10 @@ const decimalToRoman = (num) => {
         return "II";
     }
 
+    if(num === 3) {
+        return "III";
+    }
+
 
 }
 
