@@ -18,7 +18,7 @@ const decimalToRoman = (num) => {
             return letterV;
         }
        
-        return letterV + letterI.repeat(num);
+        return letterV + letterI.repeat(num - 5);
         
         
     }
